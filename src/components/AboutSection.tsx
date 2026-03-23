@@ -1,9 +1,25 @@
-import { Heart, CheckCircle2 } from "lucide-react";
+import { Heart } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 
 const AboutSection = () => {
+  const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setVisible(true); },
+      { threshold: 0.2 }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section id="about" className="py-20">
-      <div className="container mx-auto">
+      <div
+        ref={ref}
+        className={`container mx-auto transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
+      >
         <div className="max-w-2xl mx-auto text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-secondary rounded-full mb-4">
             <Heart className="w-4 h-4 text-primary" />
@@ -11,27 +27,12 @@ const AboutSection = () => {
           </div>
 
           <h2 className="font-display text-3xl sm:text-4xl font-bold">
-            Hey, I'm Your <span className="text-gradient-pink">Shopping Bestie</span> 💕
+            The Vibe <span className="text-gradient-pink">Behind Ruru Finds</span> ✨
           </h2>
 
           <p className="text-muted-foreground leading-relaxed">
-            I spend hours scrolling, testing, and curating so you don't have to.
-            Every product you see here is something I've personally bought, tried, and genuinely loved.
-            No random recommendations — only real finds that made me say "everyone needs this!"
+            I find things you didn't know you needed. I'm a 4th year at IIT Kharagpur, mixing fashion, art, and tech into one curated space. Every piece here passes my personal vibe check. No random picks, no overhyped clutter — just things that feel right. If you're here, you get the vibe.
           </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-4">
-            {[
-              "Personally tested",
-              "Honest reviews",
-              "Budget-friendly",
-            ].map((item) => (
-              <div key={item} className="flex items-center gap-2 text-sm text-foreground">
-                <CheckCircle2 className="w-4 h-4 text-gold" />
-                {item}
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

@@ -7,30 +7,30 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-gold" />
-            <span className="font-display text-lg font-semibold text-gradient-gold">CuteFinds</span>
+            <span className="font-display text-lg font-semibold text-gradient-gold">Ruru Finds</span>
           </div>
 
           <div className="flex items-center gap-6">
             <a
-              href="https://pinterest.com"
+              href="https://in.pinterest.com/rishita0337/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-105 transform inline-block"
             >
               Pinterest
             </a>
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/_pavitra_rishta"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-105 transform inline-block"
             >
               Instagram
             </a>
           </div>
 
           <p className="text-xs text-muted-foreground">
-            © 2026 CuteFinds. All rights reserved.
+            © 2026 Ruru Finds. All rights reserved.
           </p>
         </div>
 
