@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-2 group">
           <Sparkles className="w-5 h-5 text-gold transition-transform duration-300 group-hover:rotate-12" />
           <span className="font-display text-xl font-semibold text-gradient-gold">
-            CuteFinds
+            Ruru Finds
           </span>
         </Link>
 
