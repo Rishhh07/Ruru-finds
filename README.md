@@ -52,10 +52,6 @@ Add a new product like this:
 
 Categories are generated automatically.
 
-## 🌐 Live Website
-
-https://Rishhh07.github.io/luxe-finds
-
 ## 💡 Future Improvements
 
 - Admin panel for adding products  
