@@ -56,11 +56,6 @@ Categories are generated automatically.
 
 https://Rishhh07.github.io/luxe-finds
 
-## 🔗 Connect With Me
-
-Pinterest: https://in.pinterest.com/rishita0337/  
-Instagram: https://instagram.com/_pavitra_rishta  
-
 ## 💡 Future Improvements
 
 - Admin panel for adding products  
