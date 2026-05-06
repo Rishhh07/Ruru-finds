@@ -10,6 +10,12 @@ const Footer = () => {
             <span className="font-display text-lg font-semibold text-gradient-gold">Ruru Finds</span>
           </div>
 
+          <a href="/privacy-policy"
+          className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-105 transform inline-block"
+          >
+          Privacy Policy
+          </a>
+
           <div className="flex items-center gap-6">
             <a
               href="https://in.pinterest.com/rishita0337/"
