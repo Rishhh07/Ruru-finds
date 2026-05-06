@@ -69,3 +69,6 @@ One click should lead to multiple discoveries.
 ## 📜 License
 
 Free to use for learning and inspiration.
+
+## Check out the website live!!
+https://ruru-finds.netlify.app/
