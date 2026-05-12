@@ -27,6 +27,9 @@ const Navbar = () => {
             alt="Ruru Finds"
             className="h-10 w-auto object-contain"
           />
+          <span className="font-display text-xl font-semibold text-gradient-gold">
+            Ruru Finds
+          </span>
         </Link>
 
         {/* Desktop nav */}
