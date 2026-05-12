@@ -25,7 +25,7 @@ const Navbar = () => {
           <img
             src="/R.png"
             alt="Ruru Finds"
-            className="h-16 w-auto object-contain"
+            className="h-18 w-auto object-contain"
           />
           <span className="font-display text-xl font-semibold text-gradient-gold">
             Ruru Finds
