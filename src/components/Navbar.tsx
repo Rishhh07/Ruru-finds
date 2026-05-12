@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Search, Sparkles } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -22,10 +22,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2 group">
-          <Sparkles className="w-5 h-5 text-gold transition-transform duration-300 group-hover:rotate-12" />
-          <span className="font-display text-xl font-semibold text-gradient-gold">
-            Ruru Finds
-          </span>
+          <img
+            src="/R.png"
+            alt="Ruru Finds"
+            className="h-10 w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -45,9 +46,6 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-3">
-          <button className="p-2 rounded-full hover:bg-secondary transition-colors duration-300" aria-label="Search">
-            <Search className="w-4 h-4 text-muted-foreground" />
-          </button>
           <button
             className="md:hidden p-2 rounded-full hover:bg-secondary transition-colors duration-300"
             onClick={() => setMenuOpen(!menuOpen)}
