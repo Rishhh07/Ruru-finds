@@ -41,7 +41,9 @@ const Footer = () => {
         </div>
 
         <p className="text-xs text-muted-foreground/60 text-center mt-8 max-w-lg mx-auto">
-          This site contains affiliate links. I may earn a small commission at no extra cost to you. Thank you for supporting! 💖
+          This site participates in affiliate marketing 
+programs including but not limited to Myntra, 
+Flipkart, and Ajio affiliate programs and contains affiliate links. I may earn a small commission at no extra cost to you. Thank you for supporting! 💖
         </p>
       </div>
     </footer>
