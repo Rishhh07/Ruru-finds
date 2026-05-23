@@ -387,11 +387,11 @@ export const products: Product[] = [
   },
   {
     id: "30",
-    name: "TEAMSPIRIT Women Graphic Print Fitted Top with Ruching",
+    name: "TEAMSPIRIT Women Typographic Print Boxy Fit Top",
     caption: "₹120 and it's giving everything? Ajio really said here you go 🤍",
     price: "₹120",
     image: "https://assets-jiocdn.ajio.com/medias/sys_master/root/20241203/qhPK/674f03380f47f80c87cf11d3/-473Wx593H-443061477-offwhite-MODEL.jpg",
-    affiliateLink: "https://ajiio.in/i2kSGpe",
+    affiliateLink: "https://ajiio.in/oxq4k2s",
     category: "tops",
     featured: true,
     trending: true,
