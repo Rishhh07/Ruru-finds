@@ -88,8 +88,8 @@ export const products: Product[] = [
     image: "https://i.ibb.co/fdQTK85m/Screenshot-2026-05-10-195921.png",
     affiliateLink: "https://myntr.it/S5c4gUS",
     category: "dresses",
-    featured: true,
-    trending: true,
+    featured: false,
+    trending: false,
   },
   {
     id: "2",
@@ -99,8 +99,8 @@ export const products: Product[] = [
     image: "https://i.ibb.co/6R0409zW/Screenshot-2026-05-10-203507.png",
     affiliateLink: "https://myntr.it/VKaYQ5C",
     category: "dresses",
-    featured: true,
-    trending: true,
+    featured: false,
+    trending: false,
   },
   {
     id: "3",
@@ -142,8 +142,8 @@ export const products: Product[] = [
     image: "https://i.ibb.co/F4sP3Nwt/Screenshot-2026-05-10-204631.png",
     affiliateLink: "https://myntr.it/o08loSD",
     category: "tops",
-    featured: true,
-    trending: true,
+    featured: false,
+    trending: false,
   },
   {
     id: "7",
@@ -175,7 +175,7 @@ export const products: Product[] = [
     affiliateLink: "https://fktr.in/bvS1Hio",
     category: "kurtis",
     featured: true,
-    trending: true,
+    trending: false,
   },
   // BOTTOMS
   {
@@ -208,8 +208,8 @@ export const products: Product[] = [
     image: "https://i.ibb.co/j9DW8N4n/Screenshot-2026-05-10-202907.png",
     affiliateLink: "https://myntr.it/iPzK4A1",
     category: "co-ords",
-    featured: true,
-    trending: true,
+    featured: false,
+    trending: false,
   },
   // ACCESSORIES
   {
@@ -263,7 +263,7 @@ export const products: Product[] = [
     affiliateLink: "https://fktr.in/sa7jJWr",
     category: "home-decor",
     featured: true,
-    trending: true,
+    trending: false,
   },
   {
     id: "18",
@@ -283,7 +283,7 @@ export const products: Product[] = [
     image: "https://rukminim2.flixcart.com/image/1860/1860/xif0q/sticker/t/f/r/small-red-aesthetic-vintage-girl-stickers-for-laptop-journal-and-original-imahgtaax9aj5wmq.jpeg?q=90",
     affiliateLink: "https://fktr.in/npmeYgH",
     category: "home-decor",
-    trending: true,
+    trending: false,
   },
   {
     id: "20",
@@ -295,7 +295,6 @@ export const products: Product[] = [
     category: "home-decor",
     featured: false,
   },
-  // NEW DRESSES - TO BE ADDED
   {
     id: "21",
     name: "JUGNOO Women Fit and Flare Black Maxi Dress",
@@ -314,7 +313,7 @@ export const products: Product[] = [
     image: "https://rukminim2.flixcart.com/image/1850/1850/xif0q/dress/l/k/u/xxl-cj-net-red-rose-cajuni-original-imahmapwdccdadja.jpeg?q=90",
     affiliateLink: "https://fktr.in/SJziETz",
     category: "dresses",
-    trending: true,
+    trending: false,
   },
   {
     id: "23",
@@ -345,6 +344,57 @@ export const products: Product[] = [
     affiliateLink: "https://fktr.in/edZxuDo",
     category: "dresses",
     featured: true,
+  },
+  {
+    id: "26",
+    name: "Femibazaar Casual Sleeveless Checkered Yellow Top",
+    caption: "Checkered. Sleeveless. ₹437. Summer has entered the chat ☀️",
+    price: "₹437",
+    image: "https://rukminim2.flixcart.com/image/1850/1850/xif0q/top/m/t/2/s-1-yellowchecktop-femibazaar-original-imahhcz7ekjshphx.jpeg?q=90",
+    affiliateLink: "https://fktr.in/HzJ8wXK",
+    category: "tops",
+    trending: true,
+  },
+  {
+    id: "27",
+    name: "PATTZALA Party Shoulder Straps Floral Print Women Pink Top",
+    caption: "Floral. Pink. 46% off. Your summer wardrobe called 🌸",
+    price: "₹270",
+    image: "https://rukminim2.flixcart.com/image/1850/1850/xif0q/top/z/m/l/l-1-t-3-pattzala-original-imahke4vazw5snvq.jpeg?q=90",
+    affiliateLink: "https://fktr.in/UjOgVb3",
+    category: "tops",
+    trending: true,
+  },
+  {
+    id: "28",
+    name: "Nirwear Creation Casual Ruffled Sleeves Floral Print Women Multicolor Top",
+    caption: "Ruffles. Florals. ₹310. The summer top you didn't know you needed 🌺",
+    price: "₹310",
+    image: "https://rukminim2.flixcart.com/image/1850/1850/xif0q/top/i/l/7/s-1-crop-top-nirwear-creation-original-imahhcgjyhqjvxrd.jpeg?q=90",
+    affiliateLink: "https://fktr.in/A63Xzgz",
+    category: "tops",
+    featured: true,
+  },
+  {
+    id: "29",
+    name: "Sovi Fashion Casual Solid Women Brown Top",
+    caption: "Brown. Minimal. ₹283. The clean girl aesthetic on a budget 🤎",
+    price: "₹283",
+    image: "https://rukminim2.flixcart.com/image/1850/1850/xif0q/top/h/9/j/xs-1-top-korean-backribbon-io-sovi-fashion-original-imahggzak7wkz5kv.jpeg?q=90",
+    affiliateLink: "https://fktr.in/dsxqLwQ",
+    category: "tops",
+    trending: true,
+  },
+  {
+    id: "30",
+    name: "TEAMSPIRIT Women Graphic Print Fitted Top with Ruching",
+    caption: "₹120 and it's giving everything? Ajio really said here you go 🤍",
+    price: "₹120",
+    image: "https://assets-jiocdn.ajio.com/medias/sys_master/root/20241213/lKGL/675c0e900f47f80c87f73dd6/-78Wx98H-443061476-offwhite-MODEL.jpg",
+    affiliateLink: "https://ajiio.in/i2kSGpe",
+    category: "tops",
+    featured: true,
+    trending: true,
   },
 ];
 
