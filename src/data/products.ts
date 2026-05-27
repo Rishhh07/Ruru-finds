@@ -447,6 +447,16 @@ export const products: Product[] = [
     category: "accessories",
     trending: true,
   },
+  {
+    id: "36",
+    name: "KGN FASHION Women Multicolor Messenger Bag",
+    caption: "Multicolor. Messenger. ₹200. 87% off and it's this cute? 🌈🖤",
+    price: "₹200",
+    image: "https://rukminim2.flixcart.com/image/1850/1850/xif0q/hand-messenger-bag/n/q/h/hendbag-25-ck76-messenger-bag-kgn-fashion-5-original-imahkkt4pssvrzyq.jpeg?q=90",
+    affiliateLink: "https://fktr.in/69z4nba",
+    category: "accessories",
+    trending: true,
+  },
 ];
 
 export const getProductsByCategory = (slug: string) =>
