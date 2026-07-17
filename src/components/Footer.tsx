@@ -26,7 +26,7 @@ const Footer = () => {
               Pinterest
             </a>
             <a
-              href="https://instagram.com/_pavitra_rishta"
+              href="https://instagram.com/ruru_finds"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-primary transition-colors duration-300 hover:scale-105 transform inline-block"
