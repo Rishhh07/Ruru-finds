@@ -31,7 +31,7 @@ const AboutSection = () => {
           </h2>
 
           <p className="text-muted-foreground leading-relaxed">
-            I find things you didn't know you needed. I'm a 4th year at IIT Kharagpur, mixing fashion, art, and tech into one curated space. Every piece here passes my personal vibe check. No random picks, no overhyped clutter — just things that feel right. If you're here, you get the vibe.
+            I find things you didn't know you needed. I'm a 5th year at IIT Kharagpur, mixing fashion, art, and tech into one curated space. Every piece here passes my personal vibe check. No random picks, no overhyped clutter — just things that feel right. If you're here, you get the vibe.
           </p>
         </div>
       </div>
